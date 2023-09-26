@@ -30,6 +30,8 @@ print(validate_palendrum(str(input())))
 
 
 
+# sample validation :   'abcaba'    'abccba'
+
 
 
 
