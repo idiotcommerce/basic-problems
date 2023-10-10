@@ -45,25 +45,42 @@
 # -----------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 
-def reverse_words_in(given_string):
-    word_present_index, space_checker, word_ending_index = 0, 0, len(given_string)-1
-    reversed_words = []
+# def reverse_words_in(given_string):
+#     word_present_index, space_checker, word_ending_index = 0, 0, len(given_string)-1
+#     reversed_words = []
 
-    for space in given_string:
-        if space_checker < word_ending_index:
+#     for space in given_string:
+#         if space_checker < word_ending_index:
             
-            if space == ' ':
-                reversed_words.insert(0, given_string[word_present_index:space_checker])
-                space_checker += 1
-                word_present_index = space_checker
-            elif space != ' ':
-                space_checker += 1
-        else:
-            reversed_words.insert(0, given_string[word_present_index:word_ending_index + 1])
+#             if space == ' ':
+#                 reversed_words.insert(0, given_string[word_present_index:space_checker])
+#                 space_checker += 1
+#                 word_present_index = space_checker
+#             elif space != ' ':
+#                 space_checker += 1
+#         else:
+#             reversed_words.insert(0, given_string[word_present_index:word_ending_index + 1])
     
-    return ' '.join(reversed_words)
+#     return ' '.join(reversed_words)
 
-print(reverse_words_in('Alice likes Bob'))
+# print(reverse_words_in('Alice likes Bob'))
+
+
+# -----------------------------------------------------------------------------
+# --------------------------------------------------------------------------------
+
+
+# faskal 
+
+# a = [1, 2, 1]
+
+# for item in range(2):
+#     a[item] = a[item] + a[item+1]
+# print(a[:len(a)-1])
+
+
+
+
 
 
 
