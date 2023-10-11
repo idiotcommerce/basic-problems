@@ -15,4 +15,6 @@ def inter_conversion_of_integer_and_string():
 print(inter_conversion_of_integer_and_string())
 
 
+#   sample input 
 
+#   123456789 , "1234566789"
